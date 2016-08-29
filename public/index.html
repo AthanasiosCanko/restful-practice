@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html align='middle'>
+
+	<head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css"/>
+		<script src="//code.jquery.com/jquery-2.1.0.js"></script>
+		<script src="main.js"></script>
+	</head>
+	
+	<body>
+		
+		<div class="well">
+			<h1>GET</h1>
+			<!-- Array will be displayed in this paragraph -->
+			<p id="get"></p>
+			<!-- Sends a GET request -->
+			<button class="btn btn-primary">GET</button>
+		</div>
+		
+		<div class="well">
+			<h1>POST</h1>
+			<input type="text" id="item">
+			<!-- Takes data from the text field and sends it as a POST request -->
+			<button class="btn btn-success">POST</button>
+		</div>
+		
+		<div class="well">
+			<h1>PUT</h1>
+			<input type="text" id="update">
+			<!-- Takes data from the text field and updates the last element as a PUT request -->
+			<button class="btn btn-warning">PUT</button>
+		</div>
+		
+		<div class="well">
+			<h1>DELETE</h1>
+			<!-- Sends a DELETE request -->
+			<button class="btn btn-danger">DELETE</button>
+		</div>
+	</body>
+
+</html>
